@@ -5,6 +5,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Main from './components/Main';
 import Skills from './components/Skills';
 import Career from './components/Career';
+import Robotics from './components/Robotics';
 
 function App() {
   const router = createBrowserRouter(
@@ -14,7 +15,9 @@ function App() {
         {path:'/', element:<Home></Home>},
         {path:'/About', element:<About></About>},
         {path:'/Skills', element:<Skills></Skills>},
-        {path:'/Career', element:<Career></Career>}
+        {path:'/Career', element:<Career></Career>},
+        {path:'/Robotics', element:<Robotics></Robotics>},
+
       ]
     },
     ]
