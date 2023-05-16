@@ -3,6 +3,7 @@ import duburi_v2 from '../images/duburi_v2.jpg'
 import duburi_v1 from '../images/duburi_v1.jpg'
 import webApp from '../images/swimming_pool.jpg'
 import mac from '../images/mac.jpg'
+import { Link } from 'react-router-dom';
 
 const Skills = () => {
     return (
@@ -13,7 +14,7 @@ const Skills = () => {
                 <div className='basis-1/3'>
                 <div className="carousel w-full">
   <div id="slide1" className="carousel-item relative w-full">
-    <img src={duburi_v2} className="w-full xl:h-4/5 rounded-lg" />
+    <img src={duburi_v2} className="lg:w-full xl:h-4/5 rounded-lg" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide4" className="btn btn-circle">❮</a> 
       <a href="#slide2" className="btn btn-circle">❯</a>
@@ -46,7 +47,7 @@ const Skills = () => {
                                 <h2 className="card-title justify-center">Robotics</h2>
                                 <p>I have worked on Underwater Robotics, Humanoid robots, Mars Rover Prototypes and various other robotics projects</p>
                                 <div className="card-actions justify-center">
-                                <button className="btn btn-primary">See More</button>
+                                 <Link to='/Robotics'><button className="btn btn-primary">See More </button></Link>
                                 </div>
                                 </div>
                                 </div> 
