@@ -9,9 +9,9 @@ import {faFacebook, faInstagram, faGithub, faLinkedin} from '@fortawesome/free-b
 const Home = () => {
     return (
         <div>
-            <div className="hero bg-base-200 lg:w-25  ">
+            <div className="hero bg-base-200">
   <div className="hero-content flex-col lg:flex-row">
-    <img src={ArifinDP} className="max-w-sm rounded-lg shadow-2xl" />
+    <img src={ArifinDP} className="lg:max-w-sm rounded-lg shadow-2xl" />
     <div>
       <h1 className=" text-5xl font-bold">Hi there! I am Arifin Rafi</h1>
       <p className="py-6">I am a final year Computer Scinence Student from Brac University, Dhaka. If you are looking for a software engineer to build your websites, mobile app or embedded system and grow your business, Let’s shake hands with me.</p>
