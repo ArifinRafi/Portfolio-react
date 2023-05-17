@@ -6,6 +6,9 @@ import Main from './components/Main';
 import Skills from './components/Skills';
 import Career from './components/Career';
 import Robotics from './components/Robotics';
+import WebDev from './components/WebDev';
+import ComputerVision from './components/ComputerVision';
+import Leadership from './components/Leadership';
 
 function App() {
   const router = createBrowserRouter(
@@ -16,7 +19,10 @@ function App() {
         {path:'/About', element:<About></About>},
         {path:'/Skills', element:<Skills></Skills>},
         {path:'/Career', element:<Career></Career>},
-        {path:'/Robotics', element:<Robotics></Robotics>},
+        {path:'/Robotics', element:<Robotics></Robotics>}, 
+        {path:'/WebDev', element:<WebDev></WebDev>}, 
+        {path:'/ComputerVision', element:<ComputerVision></ComputerVision>}, 
+        {path:'/Leadership', element:<Leadership></Leadership>}, 
 
       ]
     },
