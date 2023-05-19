@@ -5,6 +5,7 @@ import Skills from './Skills';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faHippo} from '@fortawesome/free-solid-svg-icons';
 import {faFacebook, faInstagram, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import About from './About'
 
 const Home = () => {
     return (
@@ -30,6 +31,7 @@ const Home = () => {
   </div>
 </div> <br /> <br />
 <Skills></Skills>
+<About></About>
         </div>
 
         

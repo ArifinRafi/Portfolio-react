@@ -18,7 +18,7 @@ const Robotics = () => {
                  </div> 
                 <div className='lg:basis-1/2 flex mx-5 px-10 items-center'>
                     <div>
-                    Pixi Version 1.0 is an Autonomous Humanoid Robot which can perform face recognition, question answering, shaking hands and making greetings, entertain the audiences with jokes and few dance moves etc. It was a joint collaboration with <a href="https://robowaytech.com/" className='text-blue-500'>  Roboway technologies</a>
+                    Pixi Version 1.0 is an Autonomous Humanoid Robot which can perform face recognition, question answering, shaking hands and making greetings, entertain the audiences with jokes and few dance moves etc. We have used atmega 328p as the MCU and Raspberry Pi 4B as the processing unit. We have developed a deep learning CNN based computer vision model that has been used to recognize the face of a person. Additionally, pyttsx3, pyaudio and diiferent other library have been used to build the software. Serial communication has been implemented to build the communication between the MCU and the processing unit. It was a joint collaboration with <a href="https://robowaytech.com/" className='text-blue-500'>  Roboway technologies</a>
                         </div>
                     </div> 
 
@@ -33,7 +33,7 @@ const Robotics = () => {
                  </div> 
                 <div className='lg:basis-1/2 flex mx-5 px-10 items-center'>
                     <div>
-                    Pixi Version 1.0 is an Autonomous Humanoid Robot which can perform face recognition, question answering, shaking hands and making greetings, entertain the audiences with jokes and few dance moves etc. It was a joint collaboration with <a href="https://robowaytech.com/" className='text-blue-500'>  Roboway technologies</a>
+                    Pixi Version 1.0 is an Autonomous Humanoid Robot which can perform face recognition, question answering, shaking hands and making greetings, entertain the audiences with jokes and few dance moves etc. We have used atmega 328p as the MCU and Raspberry Pi 4B as the processing unit. We have developed a deep learning CNN based computer vision model that has been used to recognize the face of a person. Additionally, pyttsx3, pyaudio and diiferent other library have been used to build the software. Serial communication has been implemented to build the communication between the MCU and the processing unit. It was a joint collaboration with <a href="https://robowaytech.com/" className='text-blue-500'>  Roboway technologies</a>
                         </div>
                     </div> 
 
@@ -42,7 +42,7 @@ const Robotics = () => {
             <div className='lg:flex my-5 py-10'>          
                 <div className='lg:basis-1/3  '><h1 className='font-bold text-2xl mx-5'> Mongol Tori</h1> <br />
                 <div className='flex justify-center'>
-                <img src={mt} className='w-80 lg:mx-10   lg:w-5/6 rounded-xl' alt="" />
+                <img src={mt} className='w-80 lg:mx-10 lg:w-5/6 rounded-xl' alt="" />
 
                 </div>
                  </div> 
