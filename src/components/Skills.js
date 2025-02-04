@@ -35,10 +35,7 @@ const Skills = () => {
       <a href="#slide3" className="btn btn-circle">❯</a>
     </div>
   </div> 
-  
- 
 </div>
-
                 </div>
                 <div className='basis-1/2'>
                     <div className='grid md:grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20'>

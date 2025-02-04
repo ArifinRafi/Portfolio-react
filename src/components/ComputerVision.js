@@ -3,7 +3,7 @@ import React from 'react';
 const ComputerVision = () => {
     return (
         <div>
-            Hello, I am Computer Vision
+            Sorry, this page is not ready yet
         </div>
     );
 };

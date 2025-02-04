@@ -3,7 +3,7 @@ import React from 'react';
 const Leadership = () => {
     return (
         <div>
-            Hello, I am Leadership
+            Sorry, This page is not ready yet
         </div>
     );
 };
