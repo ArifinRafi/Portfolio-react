@@ -15,9 +15,7 @@ const Home = () => {
     <img src={ArifinDP} className="lg:max-w-sm rounded-lg shadow-2xl" />
     <div>
       <h1 className=" text-3xl lg:text-5xl font-bold">Hi there! I am Arifin Rafi</h1>
-      <p className="py-6"> I am a computer science student who loves to explore and solve real-life problems using my leadership and analytical 
-skills. I have worked on various youth-led projects and in the corporate field, gaining years of experience in learning 
-new things and managing assigned tasks effectively</p>
+      <p className="py-6"> I am a computer science student passionate about solving real-world problems through leadership and analytical thinking. With experience in both youth-led initiatives and the corporate sector, I have honed my ability to learn quickly, adapt to new challenges, and manage tasks efficiently.</p>
 <a 
   href="https://drive.google.com/file/d/1ikll8KRZ101cI4-QwmAcjLyQuqIdDC03/view?usp=drive_link" 
   download 
